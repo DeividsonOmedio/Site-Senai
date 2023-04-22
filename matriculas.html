@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>SENAI</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <img src="img/senai_logo.png" alt="Logo do Senai">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mx-5" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="matriculas.html">Matriculas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="emails.html" tabindex="-1" aria-disabled="true">E-mails</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="main" class="mt-5 p-5 h-100">
+
+    <div class="bg-dark text-light">
+        <h1>Escolher Cursos</h1>
+        <p>Escolha os cursos que gostaria de se matricular</p>
+    </div>
+
+    <!--Tabela-->
+
+    <table id="table" class="table table-borderless table-hover ">
+        <thead>
+            <tr class="border-bottom">
+              <th scope="col"></th>
+              <th scope="col">Curso</th>
+              <th scope="col">Tempo</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr class="border-bottom">
+              <td></td>
+              <td class="text-uppercase text-black-50">Aprendizagem Industrial</td>
+              
+            </tr>
+            <tr  class="border-bottom">
+              <td class="w-25"><input class="form-check-input" name="Caldeiraria" type="checkbox" value="400" id="flexCheckDefault"></td>
+              <td>Caldeiraria</td>
+              <td>400h</td>
+            </tr>
+            <tr class="border-bottom">
+              <td><input class="form-check-input" name="Eletroeletrônica" type="checkbox" value="360" id="flexCheckDefault"></td>
+              <td>Eletroeletrônica</td>
+              <td>360h</td>
+            </tr>
+            <tr class="border-bottom">
+                <td><input class="form-check-input" name="Instalação Elétrica Industrial" type="checkbox" value="380" id="flexCheckDefault"></td>
+                <td>Instalação Elétrica Industrial</td>
+                <td>380h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" name="Manutenção Mecânica Industrial" type="checkbox" value="750" id="flexCheckDefault"></td>
+                <td>Manutenção Mecânica Industrial
+                </td>
+                <td>750h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="600" id="flexCheckDefault"></td>
+                <td>Aprendizagem Industrial sob Sistema Dual
+                </td>
+                <td>600h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Processos Siderúrgicos
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Processos Administrativos
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td></td>
+                <td  class="text-uppercase text-black-50">Cursos Técnicos</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" name="Eletroeletrônica" type="checkbox" value="1200" id="flexCheckDefault"></td>
+                <td>Eletroeletrônica
+                </td>
+                <td>1200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" name="Eletromecânica" type="checkbox" value="1200" id="flexCheckDefault"></td>
+                <td>Eletromecânica
+                </td>
+                <td>1200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="1440" id="flexCheckDefault"></td>
+                <td>Mecânica</td>
+                <td>1440h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="1200" id="flexCheckDefault"></td>
+                <td>Soldagem
+                </td>
+                <td>1200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="1200" id="flexCheckDefault"></td>
+                <td>Metalurgia</td>
+                <td>1200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="1200" id="flexCheckDefault"></td>
+                <td>Segurança do Trabalho
+                </td>
+                <td>1200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td></td>
+                <td  class="text-uppercase text-black-50">Qualificação Profissional</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Auxiliar Administrativo
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Eletricista Industrial
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Eletricista Instalador Predial de Baixa Tensão
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Montador e Reparador de Computadores
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Soldador no Processo Eletrodo Revestido Aço Carbono e Aço Baixa Liga
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Soldador no Processo MIG/MAG
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Montador e Reparador de Computadores
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Operador de Equipamentos de Mina
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="400" id="flexCheckDefault"></td>
+                <td>Operador de Explosivos em Jazidas
+                </td>
+                <td>400h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td></td>
+                <td  class="text-uppercase text-black-50">Aperfeiçoamento</td>
+                
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Autocad</td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Controlador Lógico Programável - CLP
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Eletricista Predial
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Eletricidade Básica
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Eletrohidropneumática</td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Mecânico de Máquinas Industriais
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Metrologia
+
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Montador de Painéis Elétricos
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>NR - 10 - Segurança em Instalações e Serviços em Eletricidade
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>NR - 11 - Movimentação de Cargas
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>NR - 11 - Movimentação de Cargas
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>NR - 13 - Vasos de Pressão
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>NR - 20 - Combustíveis Líquidos e Inflamáveis
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>NR 35 - Segurança no Trabalho em Altura
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>NR 33 - Supervisores de Entrada
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>NR 33 - Vigias e Trabalhadores Autorizados
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Oxicorte</td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Primeiros Socorros
+                </td>
+                <td>200h</td>
+              </tr>
+              <tr class="border-bottom">
+                <td><input class="form-check-input" type="checkbox" value="200" id="flexCheckDefault"></td>
+                <td>Soldagem MIG/ MAG
+                </td>
+                <td>200h</td>
+              </tr>
+          </tbody>
+          <tfoot class="bg-dark text-light">
+            <td>Total</td>
+            <td id="totalCursos">0 curso(s)</td>
+            <td id="horasTotais">0 h</td>
+          </tfoot>
+      </table>
+      <div id="alertCursos" class=""><small id="alert" class="p-1  col-sm-1"></small></div>
+      <a href="emails.html"><button type="submit" id="matricula" class=" btn btn-outline-dark">Confirmar matrícula</button></a>
+</main>
+
+  <footer class="bottom-100 px-5">
+    &copy 2023 - SENAI
+  </footer>
+  <script src="js/bootstrap.js"></script>
+ 
+</body>
+<script src="js/check.js"></script>
+</html>
